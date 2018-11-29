@@ -17,14 +17,49 @@ dare
 /*Light green: #7ed56f*/
 /*Medium green: #55c57a*/
 /*Dark green: #28b485*/
-
+@font-face {
+    font-family: "OxideSolidOT";
+    src: url(../fonts/OxideSolidOT.otf);
+}
+@font-face {
+    font-family: "OxideSolidOT-Light";
+    src: url(../fonts/OxideSolidOT-Light.otf);
+}
+@font-face {
+    font-family: "OxideSolidOT-Bold";
+    src: url(../fonts/OxideSolidOT-Bold.otf);
+}
+@font-face {
+    font-family: "Brandon Text Regular";
+    src: url(../fonts/BrandonText-Regular.otf);
+}
+@font-face {
+    font-family: "Brandon Text Light";
+    src: url(../fonts/BrandonText-Light.otf);
+}
+@font-face {
+    font-family: "Brandon Text Bold";
+    src: url(../fonts/BrandonText-Bold.otf);
+}
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url(../fonts/BebasNeue-Light.otf);
+}
+@font-face {
+    font-family: "Bebas Neue Thin";
+    src: url(../fonts/BebasNeue-Thin.otf);
+}
+@font-face {
+    font-family: "Bebas Neue Book";
+    src: url(../fonts/BebasNeue-Book.otf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: "Open Sans Light", sans-serif;
+    font-family: "Brandon Text Regular", sans-serif;
     font-weight: 200;
     font-size: 16px;
     line-height: 1.5em;
@@ -516,9 +551,7 @@ svg > *  {
     min-height: 30px;
     max-height: 30px;
 }
-.concourse {
-    font-family: "Concourse T3";
-}
+
 .is-two-thirds-width{
     width: 66%;
 }
@@ -546,7 +579,7 @@ svg > *  {
     margin-top: 10px;
     top: 5px;
     /*font-family: "Concourse T6";*/
-    font-family: "HVD Fonts - BrandonText-Bold", "Bau-Regular";
+    font-family: "Brandon Text Regular";
     word-spacing: 3px;
     font-size: 14px;
     font-weight: 800;
